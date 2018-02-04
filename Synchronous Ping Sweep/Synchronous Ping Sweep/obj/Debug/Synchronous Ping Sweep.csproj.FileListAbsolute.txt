@@ -1,0 +1,10 @@
+C:\Users\justi\Documents\GitHub\ping-sweeper\Synchronous Ping Sweep\Synchronous Ping Sweep\bin\Debug\Synchronous Ping Sweep.exe.config
+C:\Users\justi\Documents\GitHub\ping-sweeper\Synchronous Ping Sweep\Synchronous Ping Sweep\bin\Debug\Synchronous Ping Sweep.exe
+C:\Users\justi\Documents\GitHub\ping-sweeper\Synchronous Ping Sweep\Synchronous Ping Sweep\bin\Debug\Synchronous Ping Sweep.pdb
+C:\Users\justi\Documents\GitHub\ping-sweeper\Synchronous Ping Sweep\Synchronous Ping Sweep\obj\Debug\Synchronous Ping Sweep.csprojResolveAssemblyReference.cache
+C:\Users\justi\Documents\GitHub\ping-sweeper\Synchronous Ping Sweep\Synchronous Ping Sweep\obj\Debug\Synchronous_Ping_Sweep.Form1.resources
+C:\Users\justi\Documents\GitHub\ping-sweeper\Synchronous Ping Sweep\Synchronous Ping Sweep\obj\Debug\Synchronous_Ping_Sweep.Properties.Resources.resources
+C:\Users\justi\Documents\GitHub\ping-sweeper\Synchronous Ping Sweep\Synchronous Ping Sweep\obj\Debug\Synchronous Ping Sweep.csproj.GenerateResource.Cache
+C:\Users\justi\Documents\GitHub\ping-sweeper\Synchronous Ping Sweep\Synchronous Ping Sweep\obj\Debug\Synchronous Ping Sweep.csproj.CoreCompileInputs.cache
+C:\Users\justi\Documents\GitHub\ping-sweeper\Synchronous Ping Sweep\Synchronous Ping Sweep\obj\Debug\Synchronous Ping Sweep.exe
+C:\Users\justi\Documents\GitHub\ping-sweeper\Synchronous Ping Sweep\Synchronous Ping Sweep\obj\Debug\Synchronous Ping Sweep.pdb
