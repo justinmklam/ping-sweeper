@@ -65,7 +65,7 @@ namespace Synchronous_Ping_Sweep
             stopWatch.Stop();
             ts = stopWatch.Elapsed;
 
-            MessageBox.Show(nFound.ToString() + " devices found! Elapsed time: " + ts.ToString(), "Single Threaded");
+            MessageBox.Show(nFound.ToString() + " devices found! Elapsed time: " + ts.ToString(), "Synchronous");
         }
 
         public async void RunPingSweep_Async()
@@ -85,11 +85,12 @@ namespace Synchronous_Ping_Sweep
                 tasks.Add(task);
             }
 
-            await Task.WhenAll(tasks);
-
-            stopWatch.Stop();
-            ts = stopWatch.Elapsed;
-            MessageBox.Show(nFound.ToString() + " devices found! Elapsed time: " + ts.ToString(), "Multithreaded");
+            await Task.WhenAll(tasks).ContinueWith(t =>
+            {
+                stopWatch.Stop();
+                ts = stopWatch.Elapsed;
+                MessageBox.Show(nFound.ToString() + " devices found! Elapsed time: " + ts.ToString(), "Asynchronous");
+            });
         }
 
         private async Task PingAndUpdateAsync(System.Net.NetworkInformation.Ping ping, string ip)
@@ -103,7 +104,6 @@ namespace Synchronous_Ping_Sweep
                     nFound++;
                 }
             }
-
         }
     }
 }

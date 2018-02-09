@@ -38,7 +38,7 @@
             this.buttonSweepSync.Name = "buttonSweepSync";
             this.buttonSweepSync.Size = new System.Drawing.Size(134, 30);
             this.buttonSweepSync.TabIndex = 0;
-            this.buttonSweepSync.Text = "Single Thread";
+            this.buttonSweepSync.Text = "Synchronous";
             this.buttonSweepSync.UseVisualStyleBackColor = true;
             this.buttonSweepSync.Click += new System.EventHandler(this.buttonPingSweep_Click);
             // 
@@ -48,7 +48,7 @@
             this.buttonSweepAsync.Name = "buttonSweepAsync";
             this.buttonSweepAsync.Size = new System.Drawing.Size(134, 30);
             this.buttonSweepAsync.TabIndex = 1;
-            this.buttonSweepAsync.Text = "Multithread";
+            this.buttonSweepAsync.Text = "Asynchronous";
             this.buttonSweepAsync.UseVisualStyleBackColor = true;
             this.buttonSweepAsync.Click += new System.EventHandler(this.buttonSweepAsync_Click);
             // 
