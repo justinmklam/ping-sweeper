@@ -9,3 +9,5 @@ Demonstrates single vs multithreaded ping sweep in C# Winform.
 
 ## Multithread
 ![Async](Ping%20Sweep%20Demo/Screencaps/ping%20result%20-%20async.png)
+
+Read the full story on [my blog](http://justinmklam.com/posts/2018/02/ping-sweeper/)!
